@@ -1,0 +1,28 @@
+{
+  "name": "ouarea/wxcorp",
+  "version": "v1.0.1",
+  "description": "Wechat corp service",
+  "license": "proprietary",
+  "type": "library",
+
+  "autoload": {
+    "psr-4": {
+      "Ouarea\\WxCorp\\": "src/"
+    }
+  },
+
+  "config": {
+    "preferred-install": "dist"
+  },
+
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+
+  "require": {
+    "guzzlehttp/guzzle": "^6.1"
+  },
+
+  "require-dev": {
+    "phpspec/phpspec": "^2.5"
+  }
+}
