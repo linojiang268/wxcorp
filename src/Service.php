@@ -71,7 +71,7 @@ class Service
     }
 
     /**
-     * Send text message
+     * Send text card message
      *
      * @param $accessToken
      * @param int $agentId
